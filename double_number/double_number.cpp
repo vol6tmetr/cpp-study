@@ -1,7 +1,6 @@
 #include "../std_lib_facilities.h"
 
-int main()
-{
+int main() {
   double number;
   cout << "Write a double number: ";
   cin >> number;

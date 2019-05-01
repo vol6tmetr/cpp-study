@@ -1,7 +1,6 @@
 #include "../std_lib_facilities.h"
 
-int main()
-{
+int main() {
   cout << "Write strings to compare (alphabetically): ";
   string string1;
   string string2;
