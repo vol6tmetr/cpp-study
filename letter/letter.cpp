@@ -6,10 +6,12 @@ int main() {
   cin >> destination_name;
   cout << "Dear " << destination_name << ",\n"
        << "How are you?\nI'm fine, miss you.\n";
+
   cout << "Write name of your friend: ";
   string friend_name = "";
   cin >> friend_name;
   cout << "How long ago have you met " << friend_name << "?\n";
+
   cout << "Type m or f if your friend sex is male or female: ";
   char friend_sex = ' ';
   cin >> friend_sex;
@@ -19,6 +21,7 @@ int main() {
   if (friend_sex == 'f') {
     cout << "If you will meet " << friend_name << ", tell her to call me.\n";
   }
+
   cout << "Type age of your friend: ";
   int friend_age = 0;
   cin >> friend_age;
